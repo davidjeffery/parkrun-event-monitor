@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Track new parkrun IDs, alert by email, and save a successful snapshot."""
 import json
+import argparse
 import os
 import smtplib
 import sys
@@ -83,29 +84,60 @@ def email_alert(new):
         smtp.send_message(msg)
 
 
-def main():
-    now = datetime.now(ZONE)
-    if not os.environ.get("FORCE_CHECK") and not due(now):
-        print("Not a UK monitoring hour:", now.isoformat())
-        return
-    current = extract(fetch())  # failure cannot corrupt old snapshot
+def verify_smtp():
+    """Check credentials without sending a test/historical-event email."""
+    sender = os.environ.get("SMTP_USER")
+    password = os.environ.get("SMTP_APP_PASSWORD")
+    if not sender or not password:
+        raise RuntimeError("Set SMTP_USER and SMTP_APP_PASSWORD repository secrets")
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=35) as smtp:
+        smtp.login(sender, password)
+    print("SMTP authentication succeeded (no test email sent)")
+
+
+def check(now, initialize=False):
+    """Keep an all-time ID history; never silently reset a missing baseline."""
     old = None
     if STATE.exists():
         old = json.loads(STATE.read_text(encoding="utf-8"))
-        if not isinstance(old, dict) or "events" not in old or not isinstance(old["events"], dict):
+        if not isinstance(old, dict) or not isinstance(old.get("events"), dict) or not old["events"]:
             raise ValueError("Old snapshot invalid; refusing to replace")
+        if not all(isinstance(k, str) and isinstance(v, dict) for k, v in old["events"].items()):
+            raise ValueError("Old snapshot has invalid event entries")
+    elif not initialize:
+        raise RuntimeError("Snapshot missing: explicitly initialize once using Run workflow")
+    current = extract(fetch())
     if old is None:
         print(f"First successful check: saving {len(current)} events without sending an alert")
+        history = current
     else:
         new_ids = set(current) - set(old["events"])
         if new_ids:
             added = {i: current[i] for i in new_ids}
-            email_alert(added)  # don't advance snapshot if mail cannot be delivered
+            email_alert(added)
             print(f"Sent alert for {len(added)} events")
         else:
             print("No new IDs")
+        history = {**old["events"], **current}
     STATE.parent.mkdir(parents=True, exist_ok=True)
-    STATE.write_text(json.dumps({"checked_at":now.isoformat(), "events":current}, ensure_ascii=False, indent=2, sort_keys=True)+"\n", encoding="utf-8")
+    temporary = STATE.with_suffix(".tmp")
+    temporary.write_text(json.dumps({"checked_at":now.isoformat(), "current_event_count":len(current), "events":history}, ensure_ascii=False, indent=2, sort_keys=True)+"\n", encoding="utf-8")
+    temporary.replace(STATE)
+    print(f"Snapshot ready: {len(current)} current, {len(history)} all-time event IDs")
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--initialize", action="store_true", help="Allow the first baseline only; never resets existing history")
+    parser.add_argument("--verify-smtp", action="store_true", help="Authenticate to Gmail without sending mail")
+    args = parser.parse_args()
+    now = datetime.now(ZONE)
+    if os.environ.get("FORCE_CHECK") != "1" and not due(now):
+        print("Not a UK monitoring hour:", now.isoformat())
+        return
+    if args.verify_smtp:
+        verify_smtp()
+    check(now, initialize=args.initialize)
 
 if __name__ == "__main__":
     try:
