@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-27T13:52:23.189953+00:00",
+  "checked_at": "2026-10-28T14:47:37.577952+00:00",
   "current_event_count": 3008,
   "events": {
     "1": {
@@ -323,7 +323,7 @@
       "url": "https://www.parkrun.ie/hartstown/"
     },
     "1059": {
-      "area": "Conwy Cob, Llandudno Junction, Conwy",
+      "area": "RSBP Nature Reserve, Llandudno Junction, Conwy",
       "country": "97",
       "lat": 53.282144,
       "lon": -3.820297,
@@ -1205,8 +1205,8 @@
     "1254": {
       "area": "Bramley Park",
       "country": "97",
-      "lat": 53.813432,
-      "lon": -1.633461,
+      "lat": 53.811412,
+      "lon": -1.638083,
       "name": "Bramley parkrun",
       "url": "https://www.parkrun.org.uk/bramley/"
     },
@@ -20443,7 +20443,7 @@
       "url": "https://www.parkrun.co.nz/waitangiforest/"
     },
     "4012": {
-      "area": "Coffs Creek",
+      "area": "Coffs Harbour Showground, Coffs Creek",
       "country": "3",
       "lat": -30.293502,
       "lon": 153.121997,
