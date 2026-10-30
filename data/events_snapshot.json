@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-29T14:53:22.300458+00:00",
-  "current_event_count": 3008,
+  "checked_at": "2026-10-30T14:45:28.628064+00:00",
+  "current_event_count": 3011,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -20482,6 +20482,14 @@
       "name": "Linklater Reserve parkrun",
       "url": "https://www.parkrun.co.nz/linklaterreserve/"
     },
+    "4017": {
+      "area": "Nijong Oval",
+      "country": "3",
+      "lat": -36.231366,
+      "lon": 149.119574,
+      "name": "Nijong Oval parkrun",
+      "url": "https://www.parkrun.com.au/nijongoval/"
+    },
     "4018": {
       "area": "Gums Loop",
       "country": "65",
@@ -20505,6 +20513,14 @@
       "lon": 16.933289,
       "name": "parkrun Poznań",
       "url": "https://www.parkrun.pl/poznan/"
+    },
+    "4020": {
+      "area": "JC Slaughter Falls",
+      "country": "3",
+      "lat": -27.472872,
+      "lon": 152.97003,
+      "name": "JC Slaughter Falls parkrun",
+      "url": "https://www.parkrun.com.au/jcslaughterfalls/"
     },
     "4021": {
       "area": "Wasserwerk Oberwerth",
@@ -20601,6 +20617,14 @@
       "lon": -0.331399,
       "name": "Meadowbank junior parkrun",
       "url": "https://www.parkrun.org.uk/meadowbank-juniors/"
+    },
+    "4035": {
+      "area": "Provo River Delta Gateway",
+      "country": "98",
+      "lat": 40.239851,
+      "lon": -111.712141,
+      "name": "Provo River Delta Gateway parkrun",
+      "url": "https://www.parkrun.us/provoriverdeltagateway/"
     },
     "404": {
       "area": "College Park",
