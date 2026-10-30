@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-30T14:45:28.628064+00:00",
-  "current_event_count": 3011,
+  "checked_at": "2026-10-30T22:06:09.271527+00:00",
+  "current_event_count": 3013,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -20625,6 +20625,22 @@
       "lon": -111.712141,
       "name": "Provo River Delta Gateway parkrun",
       "url": "https://www.parkrun.us/provoriverdeltagateway/"
+    },
+    "4036": {
+      "area": "Auer-Welsbach-Park",
+      "country": "4",
+      "lat": 48.189546,
+      "lon": 16.319424,
+      "name": "Auer-Welsbach-Park parkrun",
+      "url": "https://www.parkrun.co.at/auerwelsbachpark/"
+    },
+    "4037": {
+      "area": "Austin Drive",
+      "country": "14",
+      "lat": 43.867445,
+      "lon": -79.299261,
+      "name": "Austin Drive parkrun",
+      "url": "https://www.parkrun.ca/austindrive/"
     },
     "404": {
       "area": "College Park",
