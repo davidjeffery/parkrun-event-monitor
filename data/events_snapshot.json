@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-03T15:44:25.168398+00:00",
+  "checked_at": "2026-11-04T15:55:04.160122+00:00",
   "current_event_count": 3013,
   "events": {
     "1": {
@@ -15647,8 +15647,8 @@
       "country": "97",
       "lat": 51.066755,
       "lon": -0.088633,
-      "name": "Wakehurst parkrun",
-      "url": "https://www.parkrun.org.uk/wakehurst/"
+      "name": "Kew Wakehurst parkrun",
+      "url": "https://www.parkrun.org.uk/kewwakehurst/"
     },
     "3447": {
       "area": "Scarborough",
@@ -21069,8 +21069,8 @@
     "457": {
       "area": "Hartlepool",
       "country": "97",
-      "lat": 54.686937,
-      "lon": -1.195128,
+      "lat": 54.662769,
+      "lon": -1.187,
       "name": "Hartlepool parkrun",
       "url": "https://www.parkrun.org.uk/hartlepool/"
     },
