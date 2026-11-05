@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-04T15:55:04.160122+00:00",
-  "current_event_count": 3013,
+  "checked_at": "2026-11-05T16:00:08.126676+00:00",
+  "current_event_count": 3015,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -20642,6 +20642,14 @@
       "name": "Austin Drive parkrun",
       "url": "https://www.parkrun.ca/austindrive/"
     },
+    "4039": {
+      "area": "Dundee Golf Club",
+      "country": "85",
+      "lat": -28.169723,
+      "lon": 30.221544,
+      "name": "Dundee Golf Club parkrun",
+      "url": "https://www.parkrun.co.za/dundeegolfclub/"
+    },
     "404": {
       "area": "College Park",
       "country": "98",
@@ -20649,6 +20657,22 @@
       "lon": -76.932737,
       "name": "College Park parkrun",
       "url": "https://www.parkrun.us/collegepark/"
+    },
+    "4040": {
+      "area": "Elsenzufer",
+      "country": "32",
+      "lat": 49.139229,
+      "lon": 8.918972,
+      "name": "Elsenzufer parkrun",
+      "url": "https://www.parkrun.com.de/elsenzufer/"
+    },
+    "4041": {
+      "area": "The Old Showfield juniors",
+      "country": "97",
+      "lat": 51.236053,
+      "lon": -2.309763,
+      "name": "The Old Showfield junior parkrun",
+      "url": "https://www.parkrun.org.uk/theoldshowfield-juniors/"
     },
     "405": {
       "area": "The Savill Garden, Windsor Great Park",
