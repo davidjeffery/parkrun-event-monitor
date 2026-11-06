@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-05T16:00:08.126676+00:00",
-  "current_event_count": 3015,
+  "checked_at": "2026-11-06T15:35:25.237931+00:00",
+  "current_event_count": 3017,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -20554,6 +20554,14 @@
       "name": "Historic Kōpū Bridge parkrun",
       "url": "https://www.parkrun.co.nz/historickopubridge/"
     },
+    "4025": {
+      "area": "Cabarita",
+      "country": "3",
+      "lat": -33.843131,
+      "lon": 151.115751,
+      "name": "Cabarita parkrun",
+      "url": "https://www.parkrun.com.au/cabarita/"
+    },
     "4026": {
       "area": "Wymondham High Academy juniors",
       "country": "97",
@@ -20561,6 +20569,14 @@
       "lon": 1.117125,
       "name": "Wymondham High Academy junior parkrun",
       "url": "https://www.parkrun.org.uk/wymondhamhighacademy-juniors/"
+    },
+    "4027": {
+      "area": "Mary Kinross juniors",
+      "country": "3",
+      "lat": -24.847157,
+      "lon": 152.474677,
+      "name": "Mary Kinross junior parkrun",
+      "url": "https://www.parkrun.com.au/marykinross-juniors/"
     },
     "4028": {
       "area": "Coalville Park juniors",
