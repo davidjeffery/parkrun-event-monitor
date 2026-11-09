@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T14:42:34.079955+00:00",
+  "checked_at": "2026-11-09T18:10:10.569397+00:00",
   "current_event_count": 3017,
   "events": {
     "1": {
@@ -11045,8 +11045,8 @@
     "2765": {
       "area": "Penryn Campus",
       "country": "97",
-      "lat": 50.170244,
-      "lon": -5.124008,
+      "lat": 50.170333,
+      "lon": -5.123609,
       "name": "Penryn Campus parkrun",
       "url": "https://www.parkrun.org.uk/penryncampus/"
     },
