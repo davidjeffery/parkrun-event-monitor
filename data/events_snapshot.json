@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-11T15:46:58.003121+00:00",
-  "current_event_count": 3017,
+  "checked_at": "2026-11-12T16:30:14.290122+00:00",
+  "current_event_count": 3018,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -20689,6 +20689,14 @@
       "lon": -2.309763,
       "name": "The Old Showfield junior parkrun",
       "url": "https://www.parkrun.org.uk/theoldshowfield-juniors/"
+    },
+    "4043": {
+      "area": "Cathcart Golf Club",
+      "country": "85",
+      "lat": -32.290595,
+      "lon": 27.142568,
+      "name": "Cathcart Golf Club parkrun",
+      "url": "https://www.parkrun.co.za/cathcartgolfclub/"
     },
     "405": {
       "area": "The Savill Garden, Windsor Great Park",
