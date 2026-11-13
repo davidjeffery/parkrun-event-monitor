@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-13T15:51:47.529024+00:00",
-  "current_event_count": 3019,
+  "checked_at": "2026-11-13T23:24:48.927765+00:00",
+  "current_event_count": 3024,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -20610,6 +20610,14 @@
       "name": "Die Hoenderhok parkrun",
       "url": "https://www.parkrun.co.za/diehoenderhok/"
     },
+    "4031": {
+      "area": "Dalkeith Country Park",
+      "country": "97",
+      "lat": 55.903639,
+      "lon": -3.061683,
+      "name": "Dalkeith Country Park parkrun",
+      "url": "https://www.parkrun.org.uk/dalkeithcountrypark/"
+    },
     "4032": {
       "area": "Mondscheinwiese",
       "country": "32",
@@ -20705,6 +20713,38 @@
       "lon": -2.192818,
       "name": "Cringle Park junior parkrun",
       "url": "https://www.parkrun.org.uk/cringlepark-juniors/"
+    },
+    "4045": {
+      "area": "Horwoods Farm",
+      "country": "85",
+      "lat": -26.145256,
+      "lon": 28.165013,
+      "name": "Horwoods Farm parkrun",
+      "url": "https://www.parkrun.co.za/horwoodsfarm/"
+    },
+    "4046": {
+      "area": "Springhead Park juniors",
+      "country": "97",
+      "lat": 53.750985,
+      "lon": -1.46892,
+      "name": "Springhead Park junior parkrun",
+      "url": "https://www.parkrun.org.uk/springheadpark-juniors/"
+    },
+    "4047": {
+      "area": "Jubilee Park juniors, Whitchurch",
+      "country": "97",
+      "lat": 52.968334,
+      "lon": -2.6866,
+      "name": "Jubilee Park junior parkrun, Whitchurch",
+      "url": "https://www.parkrun.org.uk/jubileeparkwhitchurch-juniors/"
+    },
+    "4048": {
+      "area": "Sam Maguire juniors",
+      "country": "42",
+      "lat": 51.715006,
+      "lon": -9.109058,
+      "name": "Sam Maguire junior parkrun",
+      "url": "https://www.parkrun.ie/sammaguire-juniors/"
     },
     "405": {
       "area": "The Savill Garden, Windsor Great Park",
