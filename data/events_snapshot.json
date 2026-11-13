@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-12T16:30:14.290122+00:00",
-  "current_event_count": 3018,
+  "checked_at": "2026-11-13T15:51:47.529024+00:00",
+  "current_event_count": 3019,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -20571,7 +20571,7 @@
       "url": "https://www.parkrun.org.uk/wymondhamhighacademy-juniors/"
     },
     "4027": {
-      "area": "Mary Kinross juniors",
+      "area": "Mary Kinross Park",
       "country": "3",
       "lat": -24.847157,
       "lon": 152.474677,
@@ -20697,6 +20697,14 @@
       "lon": 27.142568,
       "name": "Cathcart Golf Club parkrun",
       "url": "https://www.parkrun.co.za/cathcartgolfclub/"
+    },
+    "4044": {
+      "area": "Cringle Park juniors",
+      "country": "97",
+      "lat": 53.436256,
+      "lon": -2.192818,
+      "name": "Cringle Park junior parkrun",
+      "url": "https://www.parkrun.org.uk/cringlepark-juniors/"
     },
     "405": {
       "area": "The Savill Garden, Windsor Great Park",
