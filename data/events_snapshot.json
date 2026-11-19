@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-18T16:53:15.357250+00:00",
-  "current_event_count": 3026,
+  "checked_at": "2026-11-19T16:59:31.999747+00:00",
+  "current_event_count": 3027,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -20769,6 +20769,14 @@
       "lon": -0.595936,
       "name": "Savill Garden junior parkrun",
       "url": "https://www.parkrun.org.uk/savillgarden-juniors/"
+    },
+    "4051": {
+      "area": "Auldcathie District junior",
+      "country": "97",
+      "lat": 55.96508,
+      "lon": -3.475907,
+      "name": "Auldcathie District junior parkrun",
+      "url": "https://www.parkrun.org.uk/auldcathiedistrict-juniors/"
     },
     "406": {
       "area": "Barking Park",
