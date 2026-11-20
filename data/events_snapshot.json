@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-20T16:37:09.525168+00:00",
-  "current_event_count": 3027,
+  "checked_at": "2026-11-20T23:51:19.379404+00:00",
+  "current_event_count": 3029,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -987,12 +987,12 @@
       "url": "https://www.parkrun.pl/opole/"
     },
     "1216": {
-      "area": "Odendaal Stadium",
+      "area": "Off Magrieta Prinsloo Street",
       "country": "85",
-      "lat": -33.214602,
-      "lon": 22.024823,
-      "name": "Odendaal Stadium parkrun",
-      "url": "https://www.parkrun.co.za/odendaalstadium/"
+      "lat": -33.220607,
+      "lon": 22.022301,
+      "name": "Prince Albert parkrun",
+      "url": "https://www.parkrun.co.za/princealbert/"
     },
     "122": {
       "area": "Moors Valley Country Park and Forest",
@@ -20777,6 +20777,22 @@
       "lon": -3.475907,
       "name": "Auldcathie District junior parkrun",
       "url": "https://www.parkrun.org.uk/auldcathiedistrict-juniors/"
+    },
+    "4052": {
+      "area": "Wellington Park juniors",
+      "country": "97",
+      "lat": 50.977653,
+      "lon": -3.235112,
+      "name": "Wellington Park junior parkrun",
+      "url": "https://www.parkrun.org.uk/wellingtonpark-juniors/"
+    },
+    "4053": {
+      "area": "Prime View",
+      "country": "85",
+      "lat": -25.947993,
+      "lon": 28.18648,
+      "name": "Prime View parkrun",
+      "url": "https://www.parkrun.co.za/primeview/"
     },
     "406": {
       "area": "Barking Park",
