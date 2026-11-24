@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-23T19:44:33.915884+00:00",
-  "current_event_count": 3029,
+  "checked_at": "2026-11-24T19:16:38.776168+00:00",
+  "current_event_count": 3028,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -3081,6 +3081,14 @@
       "lon": 145.339808,
       "name": "Wilson Botanic parkrun",
       "url": "https://www.parkrun.com.au/wilsonbotanic/"
+    },
+    "152": {
+      "area": "Wellholme Park",
+      "country": "97",
+      "lat": 53.706086,
+      "lon": -1.778156,
+      "name": "Wellholme Park parkrun",
+      "url": "https://www.parkrun.org.uk/wellholmepark/"
     },
     "1520": {
       "area": "Parkinson Rec Park",
