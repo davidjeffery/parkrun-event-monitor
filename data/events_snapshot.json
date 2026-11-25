@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-24T19:16:38.776168+00:00",
+  "checked_at": "2026-11-25T18:21:57.559735+00:00",
   "current_event_count": 3028,
   "events": {
     "1": {
@@ -20801,6 +20801,14 @@
       "lon": 28.18648,
       "name": "Prime View parkrun",
       "url": "https://www.parkrun.co.za/primeview/"
+    },
+    "4057": {
+      "area": "Higginson Park juniors",
+      "country": "97",
+      "lat": 51.566607,
+      "lon": -0.779289,
+      "name": "Higginson Park junior parkrun",
+      "url": "https://www.parkrun.org.uk/higginsonpark-juniors/"
     },
     "406": {
       "area": "Barking Park",
