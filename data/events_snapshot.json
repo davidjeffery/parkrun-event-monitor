@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-25T18:21:57.559735+00:00",
-  "current_event_count": 3028,
+  "checked_at": "2026-11-26T18:03:04.890786+00:00",
+  "current_event_count": 3030,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -20681,6 +20681,14 @@
       "lon": -79.299261,
       "name": "Austin Drive parkrun",
       "url": "https://www.parkrun.ca/austindrive/"
+    },
+    "4038": {
+      "area": "Poppet Head",
+      "country": "3",
+      "lat": -33.92383,
+      "lon": 147.233828,
+      "name": "Poppet Head parkrun",
+      "url": "https://www.parkrun.com.au/poppethead/"
     },
     "4039": {
       "area": "Dundee Golf Club",
