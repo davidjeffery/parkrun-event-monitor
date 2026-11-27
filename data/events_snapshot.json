@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-26T18:03:04.890786+00:00",
-  "current_event_count": 3030,
+  "checked_at": "2026-11-27T17:47:28.377231+00:00",
+  "current_event_count": 3031,
   "events": {
     "1": {
       "area": "Bushy Park, Teddington",
@@ -20721,6 +20721,14 @@
       "lon": -2.309763,
       "name": "The Old Showfield junior parkrun",
       "url": "https://www.parkrun.org.uk/theoldshowfield-juniors/"
+    },
+    "4042": {
+      "area": "Spittal Promenade",
+      "country": "97",
+      "lat": 55.750996,
+      "lon": -1.983952,
+      "name": "Spittal Promenade parkrun",
+      "url": "https://www.parkrun.org.uk/spittalpromenade/"
     },
     "4043": {
       "area": "Cathcart Golf Club",
